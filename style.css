@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #a7b2ba;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: lightgrey;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Navigasi */
+nav ul{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: lightgrey;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav ul li a.sign:hover{
+    background-color: lightgrey;
+    color: #0f0e0c;
+}
+
+.sign{
+    background-color: #0f0e0c;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* Banner */
+.banner{
+    height: 100vh;
+    background-image: url(gambar/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.text{
+    margin: auto;
+    text-align: center;
+    color: #a7b2ba;
+    text-shadow: 0 0 5px black;
+}
+
+.text h2{
+    font-size: 1.8rem;
+}
+
+.text h1{
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.text p{
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.text a{
+    color: black;
+    display: inline-block;
+    background-color: #a7b2ba;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.text a:hover{
+    color: #a7b2ba;
+    background-color: #0f0e0c;
+}
+
+.container{
+    width: 95%;
+    /* background-color: #7d96d4; */
+    margin: auto;
+}
+/* Halaman1 */
+.halaman1{
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.halaman1 .tulisan1{
+    width: 60%;
+}
+
+.tulisan1{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.tulisan1 h1{
+    margin-top: 20px;
+}
+
+.tulisan1 p{
+    margin-top: 20px;
+}
+
+.tulisan1 a{
+    text-align: center;
+    color: #a7b2ba;
+    display: inline-block;
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.tulisan1 a:hover{
+    color: #0f0e0c;
+    background-color: #363e72;
+}
+
+.halaman1 .gambar{
+    width: 40%;
+}
+
+/* Halaman 2 & 3 */
+
+.halaman23{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.halaman23 h1{
+    margin-top: 20px;
+}
+
+.halaman23 p{
+    margin-top: 25px;
+}
+
+.gallery1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.halaman23 .foto{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+
+.halaman23 .iFoto h3{
+    margin-top: 15px;
+}
+
+.halaman23 .space{
+    margin-top: 100px;
+}
+
+/* Halaman3 */
+.gallery2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery2 .univ{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin-top: 15px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0f0e0c;
+    color: #a7b2ba;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about .textAbout{
+    width: 20%;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+}
+
+
+
+/* Foto */
+.fsatu{
+    background-image: url(gambar/partner1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.fdua{
+    background-image: url(gambar/partner2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.ftiga{
+    background-image: url(gambar/partner3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.fempat{
+    background-image: url(gambar/partner4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.usatu{
+    background-image: url(gambar/top1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.udua{
+    background-image: url(gambar/top2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.utiga{
+    background-image: url(gambar/top3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.uempat{
+    background-image: url(gambar/top4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.ulima{
+    background-image: url(gambar/top5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+/* Responsive */
+/* Tablet */
+@media screen and (max-width:800px) {
+    .halaman23 .foto{
+        width: 150px;
+        height: 150px;
+    }
+
+    .gallery2 .univ{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+
+/* Mobile */
+@media screen and (max-width:600px) {
+    /* Navigasi */
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul{
+        width: 100%;
+    }
+
+    /* banner */
+    .text h2{
+        font-size: 1.3rem;
+    }
+    
+    .text h1{
+        font-size: 2rem;
+    }
+    
+    .text p{
+        font-size: 1rem;
+    }
+    
+    .text a{
+       
+        width: 180px;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    /* halaman1 */
+    .halaman1{
+        flex-direction: column;
+    }
+
+    .halaman1 .tulisan1{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        order: 2;
+    }
+
+    .halaman1 .gambar{
+        width: 100%;
+        margin: auto;
+        order: 1;
+    }
+
+    /* Halaman2 */
+    .halaman23 .foto{
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Halaman 3 */
+    .gallery2{
+        justify-content: space-around;
+    }
+    .gallery2 .univ{
+        width: 160px;
+        height: 160px;
+    }
+
+    /* About */
+    .about{
+        flex-direction: column;
+    }
+    
+    .about .textAbout{
+        width: 100%;
+        padding: 10px;
+    }
+}
